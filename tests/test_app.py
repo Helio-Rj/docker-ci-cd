@@ -1,7 +1,5 @@
-from app.app import app
+from app.app import somar
 
-def test_home():
-    client = app.test_client()
-    response = client.get("/")
 
-    assert response.status_code == 200
+def test_somar():
+    assert somar(2, 3) == 5
