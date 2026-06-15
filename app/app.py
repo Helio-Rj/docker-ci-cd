@@ -1,3 +1,2 @@
-def somar(a: int, b: int) -> int:
-    """Retorna a soma de dois números."""
+def somar(a, b):
     return a + b

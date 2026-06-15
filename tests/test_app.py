@@ -1,3 +1,5 @@
-def somar(a: int, b: int) -> int:
-    """Retorna a soma de dois números."""
-    return a + b
+from app.app import somar
+
+
+def test_somar():
+    assert somar(2, 3) == 5
